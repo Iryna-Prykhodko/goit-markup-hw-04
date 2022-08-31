@@ -34,13 +34,11 @@ ul {
   padding: 0;
 }
 
-
 .container {
   width: 1200px;
   margin: 0 auto;
- padding-left: 15px;
- padding-right: 15px;
- 
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 img {
@@ -51,7 +49,8 @@ img {
 
 .header-container {
   border-bottom: 1px solid #ececec;
-  display: flex;}
+  display: flex;
+}
 
 .main-nav {
   display: flex;
@@ -89,7 +88,7 @@ img {
   display: inline-flex;
   gap: 50px;
   align-items: center;
-  margin-left:auto;
+  margin-left: auto;
 }
 
 .list {
@@ -120,11 +119,22 @@ img {
   color: var(--second-text-cl);
 }
 
+/* HERO */
+
 .hero {
-  background-color: #2f303a;
+  
+  background-image: 
+  linear-gradient(to right, 
+rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  url(../images/background-image/img-hero.jpg);
+  background-repeat: no-repeat;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-position: center;
 }
+/* background-image: linear-gradient(to right, 
+rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(‘../images/main/hero.jpg’);*/
 
 .hero-title {
   color: var(--fourth-text-cl);
@@ -154,6 +164,7 @@ img {
   padding: 10px 32px;
   border-radius: 4px;
 }
+/* Особливості */
 /*прихований заголовок*/
 .visually-hidden {
   position: absolute;
@@ -168,13 +179,11 @@ img {
   margin: -1px;
 }
 
-
 .features {
   display: flex;
   gap: 30px;
-  
 }
-.container{
+.container {
   justify-content: space-evenly;
 }
 
@@ -251,10 +260,9 @@ img {
   padding-bottom: 30px;
 }
 
-address{
+address {
   margin-top: 20px;
 }
- 
 
 .logo-footer {
   color: var(--fourth-text-cl);
@@ -275,7 +283,6 @@ address{
 }
 
 .address {
- 
   font-style: normal;
   text-decoration: none;
   text-decoration-line: none;
@@ -286,7 +293,6 @@ address{
   align-items: flex-start;
 }
 
-  
 .list-item-contact {
   margin-top: 9px;
 }
@@ -334,14 +340,13 @@ address{
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--third-text-cl);
-
 }
 
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.section-services{
+.section-services {
   padding-top: 0;
 }
 
@@ -352,8 +357,6 @@ address{
   flex-wrap: wrap;
   gap: 30px;
 }
-
-  
 
 .item-set {
   flex-basis: calc((100%-60px) / 3);
@@ -386,7 +389,7 @@ address{
 .for-border {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
-  border-bottom:1px solid #eeeeee; 
+  border-bottom: 1px solid #eeeeee;
   padding-left: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
