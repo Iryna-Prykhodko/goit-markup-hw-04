@@ -55,9 +55,7 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
-}
-.icon-contact{
- 
+
 }
 .logo-link {
   align-items: center;
@@ -108,6 +106,8 @@ img {
   gap: 10px;
   padding: 32px 0;
 }
+
+
 
 .link-contact:hover .icon-contact{
   fill: var(--second-text-cl);
@@ -199,6 +199,16 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
 }
 .container {
   justify-content: space-evenly;
+}
+.box-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+width: 270px;
+height: 120px;
+background-color:#F5F4FA;
+border-radius: 4px;
+margin-bottom: 30px;
 }
 .icon-features {
   
