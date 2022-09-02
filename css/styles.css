@@ -257,6 +257,7 @@ margin-bottom: 30px;
 }
 .list-item-team {
   background-color: var(--accent-bg-cl);
+  
 }
 
 .title-card {
@@ -276,7 +277,9 @@ margin-bottom: 30px;
   letter-spacing: 0.03em;
   color: var(--third-text-cl);
   margin-top: 10px;
+ margin-bottom: 16px;
 }
+
 .team-name {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -285,6 +288,33 @@ margin-bottom: 30px;
 .team-position {
   padding-top: 10px;
   padding-bottom: 30px;
+}
+.list-socials-icon{
+display: flex;
+gap: 10px;
+justify-content: center;
+}
+
+.socials-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+width: 44px;
+height: 44px;
+color: #AFB1B8;
+background-color: var(--accent-bg-cl);
+border-radius: 50%;
+}
+
+.socials-link:hover,
+.socials-link:focus{
+  color: var(--fourth-text-cl);
+  background-color: var(--third-bg-cl);
+
+}
+
+.socials-icon{
+fill: currentColor;
 }
 
 address {
