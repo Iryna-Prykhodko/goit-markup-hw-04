@@ -105,10 +105,16 @@ img {
 .link-contact{
   display: flex;
   align-items: center;
+  gap: 10px;
+  padding: 32px 0;
 }
 
-.icon-contact{
+.link-contact:hover .icon-contact{
+  fill: var(--second-text-cl);
+}
 
+.link-contact:focus .icon-contact{
+  fill: var(--second-text-cl);
 }
 
 .link:hover,
@@ -141,9 +147,8 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
   padding-top: 200px;
   padding-bottom: 200px;
   background-position: center;
-  
-}
 
+}
 
 .hero-title {
   color: var(--fourth-text-cl);
@@ -196,7 +201,6 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
   justify-content: space-evenly;
 }
 .icon-features {
- 
   
 }
 
