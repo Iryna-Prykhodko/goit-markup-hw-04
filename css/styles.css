@@ -56,7 +56,9 @@ img {
   display: flex;
   align-items: center;
 }
-
+.icon-contact{
+ 
+}
 .logo-link {
   align-items: center;
   margin-right: 93px;
@@ -100,10 +102,15 @@ img {
   color: currentColor;
   font-style: normal;
 }
-.list-link {
-  text-decoration: none;
-  color: currentColor;
+.link-contact{
+  display: flex;
+  align-items: center;
 }
+
+.icon-contact{
+
+}
+
 .link:hover,
 .link:focus {
   color: var(--second-text-cl);
@@ -187,6 +194,10 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
 }
 .container {
   justify-content: space-evenly;
+}
+.icon-features {
+ 
+  
 }
 
 .features-list-item {
