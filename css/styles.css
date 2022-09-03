@@ -210,9 +210,7 @@ background-color:#F5F4FA;
 border-radius: 4px;
 margin-bottom: 30px;
 }
-.icon-features {
-  
-}
+
 
 .features-list-item {
   width: 270px;
@@ -321,6 +319,52 @@ border-radius: 50%;
 fill: currentColor;
 }
 
+/*CLIENTS*/
+.list-clients{
+  display: flex;
+  gap: 30px;
+}
+.list-clients{
+  
+}
+
+.box-clients{
+  display: flex;
+}
+.clients-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #AFB1B8;
+width: 170px;
+height: 92px; 
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+
+.clients-icon{
+  fill: #AFB1B8;
+  
+}
+.clients-link:hover,
+.clients-link:focus{
+  fill: var(--third-bg-cl);
+  border-color: var(--third-bg-cl);
+}
+
+
+/*.box-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+width: 270px;
+height: 120px;
+background-color:#F5F4FA;
+border-radius: 4px;
+margin-bottom: 30px;
+}*/
+
+/* FOOTER*/
 address {
   margin-top: 20px;
 }
