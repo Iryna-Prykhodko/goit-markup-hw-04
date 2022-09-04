@@ -147,6 +147,7 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
   padding-top: 200px;
   padding-bottom: 200px;
   background-position: center;
+  background-size: cover;
 
 }
 
@@ -177,6 +178,7 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
   font-weight: 700;
   padding: 10px 32px;
   border-radius: 4px;
+  border: none;
 }
 /* Особливості */
 /*прихований заголовок*/
@@ -213,7 +215,7 @@ margin-bottom: 30px;
 
 
 .features-list-item {
-  width: 270px;
+  flex-basis: calc((100%-90px)/4);
 }
 
 .title {
@@ -328,16 +330,13 @@ fill: currentColor;
   
 }
 
-.box-clients{
-  display: flex;
-}
 .clients-link{
   display: flex;
   align-items: center;
   justify-content: center;
   fill: #AFB1B8;
-width: 170px;
-height: 92px; 
+flex-basis: calc((100%-150px)/6);
+ 
 border: 1px solid #AFB1B8;
 border-radius: 4px;
 }
@@ -525,8 +524,12 @@ border-radius: 4px;
   padding-bottom: 20px;
 }
 
-.list-item-set:hover,
-.list-item-set:focus{
+.list-link{
+  display: block;
+}
+
+.list-link:hover,
+.list-link:focus{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 
   1px 4px 6px rgba(0, 0, 0, 0.16);
 }
