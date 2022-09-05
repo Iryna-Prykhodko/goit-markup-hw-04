@@ -326,8 +326,10 @@ fill: currentColor;
   display: flex;
   gap: 30px;
 }
-.list-clients{
-  
+
+.clients-item{
+  flex-basis: calc((100%-5*30px)/6);
+  height: 92px;
 }
 
 .clients-link{
@@ -335,8 +337,8 @@ fill: currentColor;
   align-items: center;
   justify-content: center;
   fill: #AFB1B8;
-flex-basis: calc((100%-150px)/6);
- 
+width: 100%;
+height: 100%;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
 }
